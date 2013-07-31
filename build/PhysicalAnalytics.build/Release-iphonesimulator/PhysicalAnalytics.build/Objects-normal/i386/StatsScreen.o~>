@@ -1,0 +1,6 @@
+/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m: In function '-[StatsScreen setSession:]':
+/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m:109: warning: conflicting types for '-(void)setSession:(double)value'
+/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.h:65: warning: previous declaration of '-(int)setSession:(double)value'
+/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m: At top level:
+/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m:324: warning: property 'repeatingTimer' requires method '-repeatingTimer' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m:324: warning: property 'repeatingTimer' requires the method 'setRepeatingTimer:' to be defined - use @synthesize, @dynamic or provide a method implementation

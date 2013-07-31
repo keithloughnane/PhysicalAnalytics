@@ -1,0 +1,1375 @@
+TFitNexus
+v7
+r0
+t293479156.910906
+cCheck dependencies
+cCpResource build/Release-iphoneos/FitNexus.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/Info.plist" FitNexus-Info.plist
+cCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../MainWindow.xib"
+cCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../SecondView.xib"
+cCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.xib"
+cCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.xib"
+cCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.xib"
+cCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.xib"
+cCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/demostats_merged.png" demostats_merged.png
+cCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/graphView.xib"
+cCpResource "build/Release-iphoneos/FitNexus.app/AsyncSocket Documentation.html" "Classes/AsyncSocket Documentation.html"
+cCpResource "build/Release-iphoneos/FitNexus.app/READ ME.txt" "Classes/READ ME.txt"
+cCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/clock_icon.png" images/clock_icon.png
+cCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/new_train.png" images/new_train.png
+cCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/graph_icon.png" images/graph_icon.png
+cProcessPCH /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch.gch FitNexus_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch.gch FitNexus_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/main.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexusAppDelegate.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FirstViewController.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/TrainingScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/LocationGetter.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/AccelGetter.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/StatsScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/StopWatchScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/SocialNetScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataBaseControler.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataPoint.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataPointManager.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/statsView.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/AsyncSocket.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/netCon.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/main.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexus" normal armv6
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexusAppDelegate.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FirstViewController.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/TrainingScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/LocationGetter.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/AccelGetter.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/StatsScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/StopWatchScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/SocialNetScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataBaseControler.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataPoint.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataPointManager.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/statsView.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/AsyncSocket.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/netCon.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexus" normal armv7
+cCreateUniversalBinary "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/FitNexus" normal "armv6 armv7"
+cGenerateDSYMFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app.dSYM" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/FitNexus"
+cProcessProductPackaging "/Users/keithloughnane/Library/MobileDevice/Provisioning Profiles/B5D415C9-6419-426E-895C-CA8A918BB495.mobileprovision" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/embedded.mobileprovision"
+cTouch "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus.xcent"
+cCodeSign "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
+c000000004BA82B910000000000000110
+t1269312401
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+c000000004B9F103D00000000000000DD
+t1268715581
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+c000000004B9F103D00000000000001E5
+t1268715581
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004B9F269700000000001EC0D0
+t1268721303
+s2015440
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004B9F262A00000000000004CF
+t1268721194
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AC100000000003B4B70
+t1268792001
+s3885936
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004BA18C6200000000000A9960
+t1268878434
+s694624
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004BA18C5A00000000000001AF
+t1268878426
+s431
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F26D2000000000036A640
+t1268721362
+s3581504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F26B90000000000001355
+t1268721337
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004B9F33E8000000000000017D
+t1268724712
+s381
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004B9F3424000000000025D5C0
+t1268724772
+s2479552
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B9F318D000000000000098F
+t1268724109
+s2447
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B9F32090000000002703220
+t1268724233
+s40907296
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/arpa/inet.h
+c000000004B9F13220000000000001533
+t1268716322
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/netdb.h
+c000000004B9F134C000000000000307F
+t1268716364
+s12415
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/netinet/in.h
+c000000004B9F1BC8000000000000539D
+t1268718536
+s21405
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/sys/socket.h
+c000000004B9F1BE000000000000059BC
+t1268718560
+s22972
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/lib/libsqlite3.dylib
+c000000004B9F1C7800000000000B4CF0
+t1268718712
+s740592
+
+N/Users/keithloughnane/Library/MobileDevice/Provisioning Profiles/B5D415C9-6419-426E-895C-CA8A918BB495.mobileprovision
+c000000004BC7A1BF0000000000001BFB
+t1271374271
+s7163
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/AccelGetter.h
+c000000004AA10ACC0000000000000199
+t1252068044
+s409
+i<Foundation/Foundation.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m
+c000000004AAEA270000000000001162D
+t1252958832
+s71213
+i"AccelGetter.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m
+c000000004BCDE67A000000000000295C
+t1271785082
+s10588
+i"DataBaseControler.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m
+c000000004B0EFA8C00000000000000DD
+t1259272844
+s221
+i"DataPoint.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m
+c000000004AA52BD600000000000000D3
+t1252338646
+s211
+i"DataPointManager.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m
+c000000004AAEA3120000000000000603
+t1252958994
+s1539
+i"LocationGetter.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../MainWindow.xib
+c000000004BC6170800000000000069A0
+t1271273224
+s27040
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../SecondView.xib
+c000000004AA146040000000000003126
+t1252083204
+s12582
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m
+c000000004BC73444000000000001285E
+t1271346244
+s75870
+i"TrainingScreen.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.xib
+c000000004BC5F7A60000000000002962
+t1271265190
+s10594
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m
+c000000004A953AFA0000000000000162
+t1251293946
+s354
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket Documentation.html
+c0000000048A5A9620000000000018F67
+t1218816354
+s102247
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.h
+c0000000049E8E5A600000000000042A9
+t1239999910
+s17065
+i<Foundation/Foundation.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m
+c0000000049E8E5A6000000000001565E
+t1239999910
+s87646
+i"AsyncSocket.h"
+i<sys/socket.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i<netdb.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.h
+c000000004A953AFA00000000000000E7
+t1251293946
+s231
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m
+c000000004ACDEA8C00000000000005A0
+t1255008908
+s1440
+i"FirstViewController.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.h
+c000000004A953AFA00000000000001D8
+t1251293946
+s472
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m
+c000000004ACDFE3800000000000004BC
+t1255013944
+s1212
+i"FitNexusAppDelegate.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/READ ME.txt
+c0000000049E8E360000000000000019E
+t1239999328
+s414
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.h
+c000000004AA4FD7E00000000000000DF
+t1252326782
+s223
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m
+c000000004AA4FD7E000000000000056A
+t1252326782
+s1386
+i"SocialNetScreen.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.xib
+c000000004ACF32BA0000000000005ABA
+t1255092922
+s23226
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.h
+c000000004BC8700C00000000000005B9
+t1271427084
+s1465
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"DataBaseControler.h"
+i"statsView.h"
+i"DataBaseControler.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m
+c000000004BCDE8390000000000001985
+t1271785529
+s6533
+i"StatsScreen.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.xib
+c000000004BCDE00800000000000067EA
+t1271783432
+s26602
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.h
+c000000004AA4FD5600000000000000DF
+t1252326742
+s223
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m
+c000000004ACC7E120000000000000568
+t1254915602
+s1384
+i"StopWatchScreen.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.xib
+c000000004ACF32E20000000000004715
+t1255092962
+s18197
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/graphView.xib
+c000000004ACC7F5C000000000000170A
+t1254915932
+s5898
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.h
+c000000004B0D5E3E000000000000030B
+t1259167294
+s779
+i"AsyncSocket.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m
+c000000004BCDE689000000000000076F
+t1271785097
+s1903
+i"netCon.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.h
+c000000004BC71CE9000000000000033E
+t1271340265
+s830
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m
+c000000004ACF1DBC0000000000000B27
+t1255087548
+s2855
+i"statsView.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/DataBaseControler.h
+c000000004B0D5F3C00000000000002EC
+t1259167548
+s748
+i<Foundation/Foundation.h>
+i"/usr/include/sqlite3.h"
+i"netCon.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/DataPoint.h
+c000000004AA52BBE00000000000000D5
+t1252338622
+s213
+i<Foundation/Foundation.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/DataPointManager.h
+c000000004AA52BD600000000000000E3
+t1252338646
+s227
+i<Foundation/Foundation.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/FitNexus_Prefix.pch
+c000000004A953AFA00000000000000B9
+t1251293946
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/LocationGetter.h
+c000000004AA6845A0000000000000237
+t1252426842
+s567
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/TrainingScreen.h
+c000000004BC72E97000000000000045E
+t1271344791
+s1118
+i<UIKit/UIKit.h>
+i"AccelGetter.h"
+i"LocationGetter.h"
+i"DataBaseControler.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus.xcent
+t1271786346
+s376
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/AccelGetter.o
+t1271786273
+s12440
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/AsyncSocket.o
+t1271786289
+s132768
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataBaseControler.o
+t1271786280
+s23796
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataPoint.o
+t1271786282
+s5260
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataPointManager.o
+t1271786284
+s5312
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FirstViewController.o
+t1271786268
+s34396
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexus
+t1271786294
+s121264
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexus.LinkFileList
+c000000004BCDEAEC0000000000000889
+t1271786220
+s2185
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexusAppDelegate.o
+t1271786265
+s46716
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/LocationGetter.o
+t1271786271
+s14556
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/SocialNetScreen.o
+t1271786278
+s33500
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/StatsScreen.o
+t1271786275
+s63472
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/StopWatchScreen.o
+t1271786276
+s33916
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/TrainingScreen.o
+t1271786270
+s48492
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/main.o
+t1271786265
+s6492
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/netCon.o
+t1271786288
+s14364
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/statsView.o
+t1271786285
+s18312
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/AccelGetter.o
+t1271786304
+s12436
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/AsyncSocket.o
+t1271786322
+s130456
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataBaseControler.o
+t1271786312
+s23204
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataPoint.o
+t1271786314
+s5260
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataPointManager.o
+t1271786316
+s5312
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FirstViewController.o
+t1271786296
+s34404
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexus
+t1271786326
+s120384
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexus.LinkFileList
+c000000004BCDEAE50000000000000889
+t1271786213
+s2185
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexusAppDelegate.o
+t1271786293
+s46732
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/LocationGetter.o
+t1271786301
+s14544
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/SocialNetScreen.o
+t1271786310
+s33508
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/StatsScreen.o
+t1271786307
+s63224
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/StopWatchScreen.o
+t1271786308
+s33928
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/TrainingScreen.o
+t1271786302
+s48488
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/main.o
+t1271786290
+s6472
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/netCon.o
+t1271786321
+s14360
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/statsView.o
+t1271786318
+s17128
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app
+t1271786356
+s4096
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app.dSYM
+t1271786340
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/AsyncSocket Documentation.html
+t1271786252
+s102247
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/FitNexus
+t1271786331
+s247360
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/Info.plist
+t1271786234
+s687
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/MainWindow.nib
+t1271786239
+s3025
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/PkgInfo
+t1271786234
+s8
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/READ ME.txt
+t1271786253
+s414
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/ResourceRules.plist
+t1271786234
+s485
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/SecondView.nib
+t1271786240
+s2073
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/SocialNetScreen.nib
+t1271786248
+s4681
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/StatsScreen.nib
+t1271786243
+s3767
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/StopWatchScreen.nib
+t1271786247
+s3132
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/TrainingScreen.nib
+t1271786242
+s1387
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/clock_icon.png
+t1271786254
+s1067
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/demostats_merged.png
+t1271786250
+s19112
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/embedded.mobileprovision
+t1271786343
+s7163
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/graphView.nib
+t1271786254
+s764
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/graph_icon.png
+t1271786257
+s891
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/new_train.png
+t1271786256
+s918
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/demostats_merged.png
+c000000004AAA72AE00000000000044DA
+t1252684462
+s17626
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/clock_icon.png
+c000000004ACF2F9F0000000000000387
+t1255092127
+s903
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/graph_icon.png
+c000000004ACF2F720000000000000322
+t1255092082
+s802
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/new_train.png
+c000000004ACF30FA00000000000002E9
+t1255092474
+s745
+
+N/usr/include/sqlite3.h
+c000000004B90CDD1000000000003D86F
+t1267781073
+s252015
+
+N/var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch.gch
+t1271786263
+s8774292
+
+N/var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch.gch
+t1271786263
+s9233044
+
+NFitNexus-Info.plist
+c000000004A953AFA000000000000038D
+t1251293946
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293478971#293479033#0(129"[BWARN]warning: building with 'Targeted Device Family' set to iPhone only ('1') not supported with SDK 'Device - iPhone OS 3.2'.1(22@121"warning: building with 'Targeted Device Family' set to iPhone only ('1') not supported with SDK 'Device - iPhone OS 3.2'.293478997#18446744073709551615#0#0(1@0"0(0#1#0"4300739032#0"0#
+
+CCodeSign "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app"
+s293479146.900620
+e293479156.910750
+r1
+xCodeSign
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app
+lSLF07#2@44"CodeSign build/Release-iphoneos/FitNexus.app293479146#293479156#0(0"0(0#0#91"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app4300739032#755"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Malachy Kelly (GAA8KSLUYD)" "--resource-rules=/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/ResourceRules.plist" --entitlements "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus.xcent" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/AccelGetter.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479070.700540
+e293479073.734524
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/AccelGetter.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m: In function '-[AccelGetter initWithOwner:]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:19: warning: assignment from incompatible pointer type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: invalid receiver type 'id*'
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: no '-getsAccel:::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: (Messages without a matching method signature
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: will be assumed to return 'id' and accept
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: '...' as arguments.)
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m: In function '-[AccelGetter accelerometer:didAccelerate:]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:35: warning: invalid receiver type 'id*'
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:35: warning: no '-getsAccel:::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m: In function '-[AccelGetter setOwner:]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:13: warning: passing argument 4 of 'objc_setProperty' from incompatible pointer type
+lSLF07#2@88"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m293479070#293479073#0(1579"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m: In function '-[AccelGetter initWithOwner:]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:19: warning: assignment from incompatible pointer type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: invalid receiver type 'id*'/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: no '-getsAccel:::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: (Messages without a matching method signature/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: will be assumed to return 'id' and accept/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: '...' as arguments.)/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m: In function '-[AccelGetter accelerometer:didAccelerate:]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:35: warning: invalid receiver type 'id*'/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:35: warning: no '-getsAccel:::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m: In function '-[AccelGetter setOwner:]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:13: warning: passing argument 4 of 'objc_setProperty' from incompatible pointer type7(22@41"Assignment from incompatible pointer type293479072#127#136#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#19#0#19#0#41"assignment from incompatible pointer type0(22@27"Invalid receiver type 'id*'293479072#263#122#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#21#0#21#0#0"0(22@31"No '-getsAccel:::' method found293479072#385#126#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#21#0#21#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)293479072#511#140#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#21#0#21#0#0"0(22@27"Invalid receiver type 'id*'293479072#1043#122#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#35#0#35#0#0"0(22@31"No '-getsAccel:::' method found293479072#1165#126#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#35#0#35#0#19"no '*' method found0(22@71"Passing argument 4 of 'objc_setProperty' from incompatible pointer type293479072#1413#166#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#13#0#13#0#56"passing argument * of '*' from incompatible pointer type0(0#0#80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m4300739032#2013"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/AccelGetter.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/AsyncSocket.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479084.573139
+e293479089.532209
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/AsyncSocket.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m293479084#293479089#0(0"0(0#0#77"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m4300739032#2010"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/AsyncSocket.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataBaseControler.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479076.924609
+e293479081.579893
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataBaseControler.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler getSessionIDs]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: no '-setSession:' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: (Messages without a matching method signature
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: will be assumed to return 'id' and accept
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: '...' as arguments.)
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler DBload]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:212: warning: initialization discards qualifiers from pointer target type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:216: warning: initialization discards qualifiers from pointer target type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler DBloadToNet]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:264: warning: initialization discards qualifiers from pointer target type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:268: warning: initialization discards qualifiers from pointer target type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler DBloadIntoStatsView]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:327: warning: initialization discards qualifiers from pointer target type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:355: warning: no '-setLLat::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:356: warning: no '-setAT::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:361: warning: no '-setLLong::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:376: warning: no '-setAX::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:377: warning: no '-setLT::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:383: warning: no '-setAY::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:388: warning: no '-setAZ::' method found
+lSLF07#2@94"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293479076#293479081#0(2799"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler getSessionIDs]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: no '-setSession:' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: (Messages without a matching method signature/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: will be assumed to return 'id' and accept/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: '...' as arguments.)/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler DBload]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:212: warning: initialization discards qualifiers from pointer target type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:216: warning: initialization discards qualifiers from pointer target type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler DBloadToNet]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:264: warning: initialization discards qualifiers from pointer target type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:268: warning: initialization discards qualifiers from pointer target type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler DBloadIntoStatsView]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:327: warning: initialization discards qualifiers from pointer target type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:355: warning: no '-setLLat::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:356: warning: no '-setAT::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:361: warning: no '-setLLong::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:376: warning: no '-setAX::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:377: warning: no '-setLT::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:383: warning: no '-setAY::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:388: warning: no '-setAZ::' method found14(22@30"No '-setSession:' method found293479079#138#132#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#129#0#129#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)293479079#270#147#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#129#0#129#0#0"0(22@59"Initialization discards qualifiers from pointer target type293479079#813#161#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#212#0#212#0#0"0(22@59"Initialization discards qualifiers from pointer target type293479079#974#161#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#216#0#216#0#0"0(22@59"Initialization discards qualifiers from pointer target type293479079#1271#161#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#264#0#264#0#0"0(22@59"Initialization discards qualifiers from pointer target type293479079#1432#161#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#268#0#268#0#0"0(22@59"Initialization discards qualifiers from pointer target type293479079#1737#161#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#327#0#327#0#0"0(22@28"No '-setLLat::' method found293479079#1898#130#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#355#0#355#0#19"no '*' method found0(22@26"No '-setAT::' method found293479079#2028#128#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#356#0#356#0#19"no '*' method found0(22@29"No '-setLLong::' method found293479079#2156#131#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#361#0#361#0#19"no '*' method found0(22@26"No '-setAX::' method found293479079#2287#128#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#376#0#376#0#19"no '*' method found0(22@26"No '-setLT::' method found293479079#2415#128#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#377#0#377#0#19"no '*' method found0(22@26"No '-setAY::' method found293479079#2543#128#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#383#0#383#0#19"no '*' method found0(22@26"No '-setAZ::' method found293479079#2671#128#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#388#0#388#0#19"no '*' method found0(0#0#86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m4300739032#2025"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataBaseControler.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataPoint.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479079.262370
+e293479083.355808
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataPoint.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m293479079#293479083#0(0"0(0#0#78"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m4300739032#2009"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataPoint.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataPointManager.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479081.580139
+e293479084.572944
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataPointManager.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m293479081#293479084#0(0"0(0#0#85"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m4300739032#2023"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/DataPointManager.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FirstViewController.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479065.517598
+e293479068.531803
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FirstViewController.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m293479065#293479068#0(0"0(0#0#85"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m4300739032#2026"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FirstViewController.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexusAppDelegate.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479063.395570
+e293479066.217902
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexusAppDelegate.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m293479063#293479066#0(0"0(0#0#85"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m4300739032#2026"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexusAppDelegate.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/LocationGetter.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479068.532169
+e293479071.811405
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/LocationGetter.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m: In function '-[LocationGetter initWithOwner:]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:20: warning: assignment from incompatible pointer type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m: In function '-[LocationGetter locationManager:didUpdateToLocation:fromLocation:]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: invalid receiver type 'id*'
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: no '-getsLoc:::::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: (Messages without a matching method signature
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: will be assumed to return 'id' and accept
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: '...' as arguments.)
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m: In function '-[LocationGetter setOwner:]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:13: warning: passing argument 4 of 'objc_setProperty' from incompatible pointer type
+lSLF07#2@91"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m293479068#293479071#0(1391"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m: In function '-[LocationGetter initWithOwner:]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:20: warning: assignment from incompatible pointer type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m: In function '-[LocationGetter locationManager:didUpdateToLocation:fromLocation:]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: invalid receiver type 'id*'/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: no '-getsLoc:::::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: (Messages without a matching method signature/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: will be assumed to return 'id' and accept/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: '...' as arguments.)/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m: In function '-[LocationGetter setOwner:]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:13: warning: passing argument 4 of 'objc_setProperty' from incompatible pointer type5(22@41"Assignment from incompatible pointer type293479071#133#139#0(6@83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m274651794#20#0#20#0#41"assignment from incompatible pointer type0(22@27"Invalid receiver type 'id*'293479071#440#125#0(6@83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m274651794#46#0#46#0#0"0(22@31"No '-getsLoc:::::' method found293479071#565#129#0(6@83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m274651794#46#0#46#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)293479071#694#143#0(6@83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m274651794#46#0#46#0#0"0(22@71"Passing argument 4 of 'objc_setProperty' from incompatible pointer type293479071#1222#169#0(6@83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m274651794#13#0#13#0#56"passing argument * of '*' from incompatible pointer type0(0#0#83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m4300739032#2019"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/LocationGetter.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/SocialNetScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479076.006512
+e293479079.262076
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/SocialNetScreen.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m293479076#293479079#0(0"0(0#0#81"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m4300739032#2018"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/SocialNetScreen.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/StatsScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479071.811539
+e293479076.006278
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/StatsScreen.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m:318: warning: property 'repeatingTimer' requires method '-repeatingTimer' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m:318: warning: property 'repeatingTimer' requires the method 'setRepeatingTimer:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@85"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m293479071#293479076#0(465"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m:318: warning: property 'repeatingTimer' requires method '-repeatingTimer' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m:318: warning: property 'repeatingTimer' requires the method 'setRepeatingTimer:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@136"Property 'repeatingTimer' requires method '-repeatingTimer' to be defined - use @synthesize, @dynamic or provide a method implementation293479075#0#229#0(6@77"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m293478329#318#0#318#0#0"0(22@143"Property 'repeatingTimer' requires the method 'setRepeatingTimer:' to be defined - use @synthesize, @dynamic or provide a method implementation293479075#229#236#0(6@77"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m293478329#318#0#318#0#0"0(0#0#77"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m4300739032#2010"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/StatsScreen.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/StopWatchScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479073.735185
+e293479076.924482
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/StopWatchScreen.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m293479073#293479077#0(0"0(0#0#81"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m4300739032#2018"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/StopWatchScreen.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/TrainingScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479066.218041
+e293479070.700207
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/TrainingScreen.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m293479066#293479070#0(0"0(0#0#83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m4300739032#2019"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/TrainingScreen.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/main.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479063.175969
+e293479065.517357
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/main.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m293479063#293479065#0(0"0(0#0#73"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m4300739032#1999"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/netCon.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479086.379830
+e293479088.563537
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/netCon.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m: In function '-[netCon init]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m:28: warning: passing argument 3 of 'connectToHost:onPort:error:' from incompatible pointer type
+lSLF07#2@80"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m293479086#293479088#0(273"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m: In function '-[netCon init]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m:28: warning: passing argument 3 of 'connectToHost:onPort:error:' from incompatible pointer type1(22@82"Passing argument 3 of 'connectToHost:onPort:error:' from incompatible pointer type293479087#104#169#0(6@72"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m293477897#28#0#28#0#56"passing argument * of '*' from incompatible pointer type0(0#0#72"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m4300739032#2000"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/netCon.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/statsView.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479083.356028
+e293479086.379587
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/statsView.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m293479083#293479086#0(0"0(0#0#75"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m4300739032#2006"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/statsView.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/AccelGetter.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479102.270528
+e293479105.641756
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/AccelGetter.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m: In function '-[AccelGetter initWithOwner:]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:19: warning: assignment from incompatible pointer type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: invalid receiver type 'id*'
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: no '-getsAccel:::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: (Messages without a matching method signature
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: will be assumed to return 'id' and accept
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: '...' as arguments.)
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m: In function '-[AccelGetter accelerometer:didAccelerate:]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:35: warning: invalid receiver type 'id*'
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:35: warning: no '-getsAccel:::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m: In function '-[AccelGetter setOwner:]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:13: warning: passing argument 4 of 'objc_setProperty' from incompatible pointer type
+lSLF07#2@88"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m293479102#293479105#0(1579"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m: In function '-[AccelGetter initWithOwner:]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:19: warning: assignment from incompatible pointer type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: invalid receiver type 'id*'/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: no '-getsAccel:::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: (Messages without a matching method signature/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: will be assumed to return 'id' and accept/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:21: warning: '...' as arguments.)/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m: In function '-[AccelGetter accelerometer:didAccelerate:]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:35: warning: invalid receiver type 'id*'/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:35: warning: no '-getsAccel:::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m: In function '-[AccelGetter setOwner:]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m:13: warning: passing argument 4 of 'objc_setProperty' from incompatible pointer type7(22@41"Assignment from incompatible pointer type293479104#127#136#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#19#0#19#0#41"assignment from incompatible pointer type0(22@27"Invalid receiver type 'id*'293479104#263#122#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#21#0#21#0#0"0(22@31"No '-getsAccel:::' method found293479104#385#126#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#21#0#21#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)293479104#511#140#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#21#0#21#0#0"0(22@27"Invalid receiver type 'id*'293479104#1043#122#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#35#0#35#0#0"0(22@31"No '-getsAccel:::' method found293479104#1165#126#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#35#0#35#0#19"no '*' method found0(22@71"Passing argument 4 of 'objc_setProperty' from incompatible pointer type293479104#1413#166#0(6@80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m274651632#13#0#13#0#56"passing argument * of '*' from incompatible pointer type0(0#0#80"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m4300739032#2013"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/AccelGetter.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/AsyncSocket.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479116.766267
+e293479122.729941
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/AsyncSocket.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m293479116#293479122#0(0"0(0#0#77"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m4300739032#2010"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/AsyncSocket.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataBaseControler.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479109.221734
+e293479113.471450
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataBaseControler.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler getSessionIDs]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: no '-setSession:' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: (Messages without a matching method signature
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: will be assumed to return 'id' and accept
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: '...' as arguments.)
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler DBload]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:212: warning: initialization discards qualifiers from pointer target type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:216: warning: initialization discards qualifiers from pointer target type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler DBloadToNet]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:264: warning: initialization discards qualifiers from pointer target type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:268: warning: initialization discards qualifiers from pointer target type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler DBloadIntoStatsView]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:327: warning: initialization discards qualifiers from pointer target type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:355: warning: no '-setLLat::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:356: warning: no '-setAT::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:361: warning: no '-setLLong::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:376: warning: no '-setAX::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:377: warning: no '-setLT::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:383: warning: no '-setAY::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:388: warning: no '-setAZ::' method found
+lSLF07#2@94"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293479109#293479113#0(2799"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler getSessionIDs]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: no '-setSession:' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: (Messages without a matching method signature/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: will be assumed to return 'id' and accept/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:129: warning: '...' as arguments.)/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler DBload]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:212: warning: initialization discards qualifiers from pointer target type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:216: warning: initialization discards qualifiers from pointer target type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler DBloadToNet]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:264: warning: initialization discards qualifiers from pointer target type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:268: warning: initialization discards qualifiers from pointer target type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m: In function '-[DataBaseControler DBloadIntoStatsView]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:327: warning: initialization discards qualifiers from pointer target type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:355: warning: no '-setLLat::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:356: warning: no '-setAT::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:361: warning: no '-setLLong::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:376: warning: no '-setAX::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:377: warning: no '-setLT::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:383: warning: no '-setAY::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m:388: warning: no '-setAZ::' method found14(22@30"No '-setSession:' method found293479112#138#132#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#129#0#129#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)293479112#270#147#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#129#0#129#0#0"0(22@59"Initialization discards qualifiers from pointer target type293479112#813#161#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#212#0#212#0#0"0(22@59"Initialization discards qualifiers from pointer target type293479112#974#161#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#216#0#216#0#0"0(22@59"Initialization discards qualifiers from pointer target type293479112#1271#161#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#264#0#264#0#0"0(22@59"Initialization discards qualifiers from pointer target type293479112#1432#161#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#268#0#268#0#0"0(22@59"Initialization discards qualifiers from pointer target type293479112#1737#161#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#327#0#327#0#0"0(22@28"No '-setLLat::' method found293479112#1898#130#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#355#0#355#0#19"no '*' method found0(22@26"No '-setAT::' method found293479112#2028#128#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#356#0#356#0#19"no '*' method found0(22@29"No '-setLLong::' method found293479112#2156#131#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#361#0#361#0#19"no '*' method found0(22@26"No '-setAX::' method found293479112#2287#128#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#376#0#376#0#19"no '*' method found0(22@26"No '-setLT::' method found293479112#2415#128#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#377#0#377#0#19"no '*' method found0(22@26"No '-setAY::' method found293479112#2543#128#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#383#0#383#0#19"no '*' method found0(22@26"No '-setAZ::' method found293479112#2671#128#0(6@86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m293477882#388#0#388#0#19"no '*' method found0(0#0#86"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m4300739032#2025"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataBaseControler.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataPoint.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479111.214806
+e293479114.833426
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataPoint.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m293479111#293479114#0(0"0(0#0#78"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m4300739032#2009"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataPoint.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataPointManager.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479113.471755
+e293479116.765958
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataPointManager.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m293479113#293479116#0(0"0(0#0#85"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m4300739032#2023"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/DataPointManager.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FirstViewController.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479094.210253
+e293479099.641287
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FirstViewController.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m293479094#293479099#0(0"0(0#0#85"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m4300739032#2026"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FirstViewController.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexusAppDelegate.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479091.331904
+e293479094.210087
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexusAppDelegate.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m293479091#293479094#0(0"0(0#0#85"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m4300739032#2026"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexusAppDelegate.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/LocationGetter.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479099.641416
+e293479102.270054
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/LocationGetter.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m: In function '-[LocationGetter initWithOwner:]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:20: warning: assignment from incompatible pointer type
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m: In function '-[LocationGetter locationManager:didUpdateToLocation:fromLocation:]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: invalid receiver type 'id*'
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: no '-getsLoc:::::' method found
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: (Messages without a matching method signature
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: will be assumed to return 'id' and accept
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: '...' as arguments.)
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m: In function '-[LocationGetter setOwner:]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:13: warning: passing argument 4 of 'objc_setProperty' from incompatible pointer type
+lSLF07#2@91"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m293479099#293479102#0(1391"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m: In function '-[LocationGetter initWithOwner:]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:20: warning: assignment from incompatible pointer type/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m: In function '-[LocationGetter locationManager:didUpdateToLocation:fromLocation:]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: invalid receiver type 'id*'/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: no '-getsLoc:::::' method found/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: (Messages without a matching method signature/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: will be assumed to return 'id' and accept/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:46: warning: '...' as arguments.)/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m: In function '-[LocationGetter setOwner:]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m:13: warning: passing argument 4 of 'objc_setProperty' from incompatible pointer type5(22@41"Assignment from incompatible pointer type293479101#133#139#0(6@83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m274651794#20#0#20#0#41"assignment from incompatible pointer type0(22@27"Invalid receiver type 'id*'293479101#440#125#0(6@83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m274651794#46#0#46#0#0"0(22@31"No '-getsLoc:::::' method found293479101#565#129#0(6@83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m274651794#46#0#46#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)293479101#694#143#0(6@83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m274651794#46#0#46#0#0"0(22@71"Passing argument 4 of 'objc_setProperty' from incompatible pointer type293479101#1222#169#0(6@83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m274651794#13#0#13#0#56"passing argument * of '*' from incompatible pointer type0(0#0#83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m4300739032#2019"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/LocationGetter.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/SocialNetScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479107.730817
+e293479111.214492
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/SocialNetScreen.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m293479107#293479111#0(0"0(0#0#81"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m4300739032#2018"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/SocialNetScreen.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/StatsScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479103.213962
+e293479107.730297
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/StatsScreen.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m:318: warning: property 'repeatingTimer' requires method '-repeatingTimer' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m:318: warning: property 'repeatingTimer' requires the method 'setRepeatingTimer:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@85"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m293479103#293479107#0(465"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m:318: warning: property 'repeatingTimer' requires method '-repeatingTimer' to be defined - use @synthesize, @dynamic or provide a method implementation/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m:318: warning: property 'repeatingTimer' requires the method 'setRepeatingTimer:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@136"Property 'repeatingTimer' requires method '-repeatingTimer' to be defined - use @synthesize, @dynamic or provide a method implementation293479106#0#229#0(6@77"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m293478329#318#0#318#0#0"0(22@143"Property 'repeatingTimer' requires the method 'setRepeatingTimer:' to be defined - use @synthesize, @dynamic or provide a method implementation293479106#229#236#0(6@77"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m293478329#318#0#318#0#0"0(0#0#77"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m4300739032#2010"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/StatsScreen.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/StopWatchScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479105.642061
+e293479109.221571
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/StopWatchScreen.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m293479105#293479109#0(0"0(0#0#81"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m4300739032#2018"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/StopWatchScreen.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/TrainingScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479099.222970
+e293479103.213840
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/TrainingScreen.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m293479099#293479103#0(0"0(0#0#83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m4300739032#2019"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/TrainingScreen.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/main.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479088.563819
+e293479091.331609
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/main.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m293479088#293479091#0(0"0(0#0#73"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m4300739032#1999"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/main.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/netCon.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479119.216963
+e293479121.640772
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/netCon.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m: In function '-[netCon init]':
+o/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m:28: warning: passing argument 3 of 'connectToHost:onPort:error:' from incompatible pointer type
+lSLF07#2@80"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m293479119#293479121#0(273"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m: In function '-[netCon init]':/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m:28: warning: passing argument 3 of 'connectToHost:onPort:error:' from incompatible pointer type1(22@82"Passing argument 3 of 'connectToHost:onPort:error:' from incompatible pointer type293479120#104#169#0(6@72"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m293477897#28#0#28#0#56"passing argument * of '*' from incompatible pointer type0(0#0#72"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m4300739032#2000"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/netCon.o"0#
+
+CCompileC build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/statsView.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479114.833548
+e293479119.216790
+r1
+xCompileC
+xbuild/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/statsView.o
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m293479114#293479119#0(0"0(0#0#75"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m4300739032#2006"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -include /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/statsView.o"0#
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../MainWindow.xib"
+s293479035.340876
+e293479039.967128
+r1
+xCompileXIB
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../MainWindow.xib
+lSLF07#2@36"CompileXIB Classes/../MainWindow.xib293479035#293479039#0(0"0(0#0#81"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../MainWindow.xib4300739032#537"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/MainWindow.nib" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../MainWindow.xib"0#
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../SecondView.xib"
+s293479035.399294
+e293479041.179519
+r1
+xCompileXIB
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../SecondView.xib
+lSLF07#2@36"CompileXIB Classes/../SecondView.xib293479035#293479041#0(0"0(0#0#81"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../SecondView.xib4300739032#537"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/SecondView.nib" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../SecondView.xib"0#
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.xib"
+s293479039.967383
+e293479043.832869
+r1
+xCompileXIB
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.xib
+lSLF07#2@40"CompileXIB Classes/../TrainingScreen.xib293479039#293479043#0(0"0(0#0#85"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.xib4300739032#545"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/TrainingScreen.nib" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.xib"0#
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.xib"
+s293479044.810142
+e293479049.767692
+r1
+xCompileXIB
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.xib
+lSLF07#2@38"CompileXIB Classes/SocialNetScreen.xib293479044#293479049#0(0"0(0#0#83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.xib4300739032#544"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/SocialNetScreen.nib" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.xib"0#
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.xib"
+s293479041.179636
+e293479044.809929
+r1
+xCompileXIB
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.xib
+lSLF07#2@34"CompileXIB Classes/StatsScreen.xib293479041#293479044#0(0"0(0#0#79"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.xib4300739032#536"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/StatsScreen.nib" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.xib"0#
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.xib"
+s293479043.833147
+e293479048.335158
+r1
+xCompileXIB
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.xib
+lSLF07#2@38"CompileXIB Classes/StopWatchScreen.xib293479043#293479048#0(0"0(0#0#83"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.xib4300739032#544"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/StopWatchScreen.nib" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.xib"0#
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/graphView.xib"
+s293479049.767807
+e293479055.793178
+r1
+xCompileXIB
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/graphView.xib
+lSLF07#2@32"CompileXIB Classes/graphView.xib293479049#293479055#0(0"0(0#0#77"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/graphView.xib4300739032#532"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/graphView.nib" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/graphView.xib"0#
+
+CCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/clock_icon.png" images/clock_icon.png
+s293479051.385542
+e293479054.499394
+r1
+xCopyPNGFile
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/clock_icon.png
+ximages/clock_icon.png
+lSLF07#2@84"CopyPNGFile build/Release-iphoneos/FitNexus.app/clock_icon.png images/clock_icon.png293479051#293479054#0(0"0(0#0#77"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/clock_icon.png4300739032#635"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/clock_icon.png" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/clock_icon.png"0#
+
+CCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/demostats_merged.png" demostats_merged.png
+s293479048.335942
+e293479051.260490
+r1
+xCopyPNGFile
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/demostats_merged.png
+xdemostats_merged.png
+lSLF07#2@89"CopyPNGFile build/Release-iphoneos/FitNexus.app/demostats_merged.png demostats_merged.png293479048#293479051#0(0"0(0#0#76"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/demostats_merged.png4300739032#640"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/demostats_merged.png" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/demostats_merged.png"0#
+
+CCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/graph_icon.png" images/graph_icon.png
+s293479055.793397
+e293479057.562473
+r1
+xCopyPNGFile
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/graph_icon.png
+ximages/graph_icon.png
+lSLF07#2@84"CopyPNGFile build/Release-iphoneos/FitNexus.app/graph_icon.png images/graph_icon.png293479055#293479057#0(0"0(0#0#77"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/graph_icon.png4300739032#635"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/graph_icon.png" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/graph_icon.png"0#
+
+CCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/new_train.png" images/new_train.png
+s293479054.499509
+e293479056.512165
+r1
+xCopyPNGFile
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/new_train.png
+ximages/new_train.png
+lSLF07#2@82"CopyPNGFile build/Release-iphoneos/FitNexus.app/new_train.png images/new_train.png293479054#293479056#0(0"0(0#0#76"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/new_train.png4300739032#633"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/new_train.png" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/new_train.png"0#
+
+CCpResource "build/Release-iphoneos/FitNexus.app/AsyncSocket Documentation.html" "Classes/AsyncSocket Documentation.html"
+s293479051.260660
+e293479053.479363
+r1
+xCpResource
+xbuild/Release-iphoneos/FitNexus.app/AsyncSocket Documentation.html
+xClasses/AsyncSocket Documentation.html
+lSLF07#2@43"Copy Classes/AsyncSocket Documentation.html293479051#293479053#0(0"0(0#0#94"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket Documentation.html4300739032#549"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket Documentation.html" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app"0#
+
+CCpResource "build/Release-iphoneos/FitNexus.app/READ ME.txt" "Classes/READ ME.txt"
+s293479051.338230
+e293479054.415632
+r1
+xCpResource
+xbuild/Release-iphoneos/FitNexus.app/READ ME.txt
+xClasses/READ ME.txt
+lSLF07#2@24"Copy Classes/READ ME.txt293479051#293479054#0(0"0(0#0#75"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/READ ME.txt4300739032#530"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/READ ME.txt" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app"0#
+
+CCpResource build/Release-iphoneos/FitNexus.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+s293479032.890330
+e293479035.340765
+r1
+xCpResource
+xbuild/Release-iphoneos/FitNexus.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist293479032#293479035#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist7810779306051726336#542"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app"0#
+
+CCreateUniversalBinary "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/FitNexus" normal "armv6 armv7"
+s293479130.641816
+e293479132.240611
+r1
+xCreateUniversalBinary
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/FitNexus
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Release-iphoneos/FitNexus.app/FitNexus normal "armv6 armv7"293479130#293479132#0(0"0(0#0#67"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/armv6 armv74300739032#608"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexus" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexus" -output "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/FitNexus"0#
+
+CGenerateDSYMFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app.dSYM" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/FitNexus"
+s293479132.240796
+e293479143.361839
+r1
+xGenerateDSYMFile
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app.dSYM
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/FitNexus
+lSLF07#2@102"GenerateDSYMFile build/Release-iphoneos/FitNexus.app.dSYM build/Release-iphoneos/FitNexus.app/FitNexus293479132#293479143#0(0"0(0#0#100"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/FitNexus4300739032#426"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/FitNexus" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app.dSYM"0#
+
+CLd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexus" normal armv6
+s293479089.532515
+e293479099.222710
+r1
+xLd
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexus
+xnormal
+xarmv6
+lSLF07#2@143"Link /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexus293479089#293479099#0(0"0(0#0#0"4300739032#1041"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk "-L/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" -filelist "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexus.LinkFileList" -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -lsqlite3 -framework MapKit -framework CFNetwork -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv6/FitNexus"0#
+
+CLd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexus" normal armv7
+s293479122.730447
+e293479130.641557
+r1
+xLd
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexus
+xnormal
+xarmv7
+lSLF07#2@143"Link /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexus293479122#293479130#0(0"0(0#0#0"4300739032#1041"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk "-L/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" -filelist "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexus.LinkFileList" -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -lsqlite3 -framework MapKit -framework CFNetwork -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/Objects-normal/armv7/FitNexus"0#
+
+CProcessInfoPlistFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/Info.plist" FitNexus-Info.plist
+s293479033.628759
+e293479035.254804
+r1
+xProcessInfoPlistFile
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/Info.plist
+xFitNexus-Info.plist
+lSLF07#2@27"Process FitNexus-Info.plist293479033#293479035#0(0"0(0#0#75"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/FitNexus-Info.plist4300739032#648"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FitNexus-Info.plist -genpkginfo "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/ResourceRules.plist" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/Info.plist"0#
+
+CProcessPCH /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch.gch FitNexus_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293479057.562723
+e293479063.070803
+r1
+xProcessPCH
+x/var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch.gch
+xFitNexus_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile FitNexus_Prefix.pch293479057#293479063#0(0"0(0#0#75"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/FitNexus_Prefix.pch4300739032#1864"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv6" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/FitNexus_Prefix.pch" -o /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-asntenywpfhoprdizczqydwkvkdr/FitNexus_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch.gch FitNexus_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293479057.563754
+e293479063.175840
+r1
+xProcessPCH
+x/var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch.gch
+xFitNexus_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile FitNexus_Prefix.pch293479057#293479063#0(0"0(0#0#75"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/FitNexus_Prefix.pch4300739032#1864"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-generated-files.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-own-target-headers.hmap" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-all-target-headers.hmap" -iquote "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus-project-headers.hmap" "-F/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/include" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources/armv7" "-I/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/DerivedSources" -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/FitNexus_Prefix.pch" -o /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FitNexus_Prefix-gvkxhxzkndvouyfemtxpughjqesu/FitNexus_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/keithloughnane/Library/MobileDevice/Provisioning Profiles/B5D415C9-6419-426E-895C-CA8A918BB495.mobileprovision" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/embedded.mobileprovision"
+s293479143.362055
+e293479144.173049
+r1
+xProcessProductPackaging
+x/Users/keithloughnane/Library/MobileDevice/Provisioning Profiles/B5D415C9-6419-426E-895C-CA8A918BB495.mobileprovision
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/embedded.mobileprovision
+lSLF07#2@204"ProcessProductPackaging "/Users/keithloughnane/Library/MobileDevice/Provisioning Profiles/B5D415C9-6419-426E-895C-CA8A918BB495.mobileprovision" build/Release-iphoneos/FitNexus.app/embedded.mobileprovision293479143#293479144#0(0"0(0#0#116"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/embedded.mobileprovision4300739032#473"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/keithloughnane/Library/MobileDevice/Provisioning Profiles/B5D415C9-6419-426E-895C-CA8A918BB495.mobileprovision" -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus.xcent"
+s293479146.119673
+e293479146.900532
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus.xcent
+lSLF07#2@180"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus.xcent293479146#293479146#0(0"0(0#0#123"/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus.xcent4300739032#475"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/FitNexus.build/Release-iphoneos/FitNexus.build/FitNexus.xcent"0#
+
+CTouch "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app"
+s293479144.173142
+e293479146.119432
+r1
+xTouch
+x/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app
+lSLF07#2@97"Touch /Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app293479144#293479146#0(0"0(0#0#0"4300739032#305"    cd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/FitNexus.app"0#
+

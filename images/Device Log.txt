@@ -1,0 +1,371 @@
+==== Attached at 2009-09-02 14:42:34 +0100 ====
+Wed Sep  2 14:27:59 unknown com.apple.debugserver-42[213] <Warning>: debugserver-42 for armv6 Copyright (c) 2007-2009 Apple, Inc.  All Rights Reserved.
+Wed Sep  2 14:27:59 unknown com.apple.debugserver-42[213] <Warning>: Connecting to com.apple.debugserver service...
+Wed Sep  2 14:28:01 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0x7e6e]) Spawned and waiting for the debugger to attach before continuing...
+Wed Sep  2 14:28:02 unknown amfid[215] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:28:02 unknown kernel[0] <Debug>: launchd[214] Builtin profile: container (seatbelt)
+Wed Sep  2 14:28:02 unknown com.apple.debugserver-42[213] <Warning>: Got a connection, waiting for debugger instructions for task "(null)".
+Wed Sep  2 14:28:02 unknown kernel[0] <Debug>: launchd[214] Container: /private/var/mobile/Applications/38FEA377-34C6-42A5-9696-187B0A93E6CA (seatbelt)
+Wed Sep  2 14:31:03 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0x7e6e]) Bug: launchd_core_logic.c:2649 (23909):10
+Wed Sep  2 14:31:03 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0x7e6e]) Working around 5020256. Assuming the job crashed.
+Wed Sep  2 14:31:03 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0x7e6e]) Job appears to have crashed: Segmentation fault
+Wed Sep  2 14:31:03 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 11: Segmentation fault
+Wed Sep  2 14:31:39 unknown mobile_installationd[230] <Error>: 00807800 install_embedded_profile: Skipping the installation of the embedded profile
+Wed Sep  2 14:31:40 unknown mobile_installationd[230] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:31:41 unknown mobile_installationd[230] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:31:41 unknown SpringBoard[24] <Warning>: Reloading and rendering all application icons.
+Wed Sep  2 14:31:45 unknown com.apple.debugserver-42[237] <Warning>: debugserver-42 for armv6 Copyright (c) 2007-2009 Apple, Inc.  All Rights Reserved.
+Wed Sep  2 14:31:45 unknown com.apple.debugserver-42[237] <Warning>: Connecting to com.apple.debugserver service...
+Wed Sep  2 14:31:46 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0xbcc1]) Spawned and waiting for the debugger to attach before continuing...
+Wed Sep  2 14:31:47 unknown amfid[239] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:31:47 unknown kernel[0] <Debug>: launchd[238] Builtin profile: container (seatbelt)
+Wed Sep  2 14:31:47 unknown com.apple.debugserver-42[237] <Warning>: Got a connection, waiting for debugger instructions for task "(null)".
+Wed Sep  2 14:31:47 unknown kernel[0] <Debug>: launchd[238] Container: /private/var/mobile/Applications/F2C57E4B-7695-45C8-9ABE-46031B8AA63F (seatbelt)
+Wed Sep  2 14:31:51 unknown FitNexus[238] <Warning>: didload
+Wed Sep  2 14:31:51 unknown FitNexus[238] <Warning>: did load done
+Wed Sep  2 14:31:54 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0xbcc1]) Bug: launchd_core_logic.c:2649 (23909):10
+Wed Sep  2 14:31:54 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0xbcc1]) Working around 5020256. Assuming the job crashed.
+Wed Sep  2 14:31:54 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0xbcc1]) Job appears to have crashed: Segmentation fault
+Wed Sep  2 14:31:54 unknown com.apple.debugserver-42[237] <Warning>: 1 [00ed/1203]: error: ::read ( 7, 0xc891c, 1024 ) => -1 err = Bad file descriptor (0x00000009)
+Wed Sep  2 14:31:54 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 11: Segmentation fault
+Wed Sep  2 14:32:05 unknown dataaccessd[20] <Warning>: EAS|connection died with error Error Domain=NSURLErrorDomain Code=-1001 UserInfo=0x10fba0 "timed out" 0x16a9b0
+Wed Sep  2 14:32:05 unknown dataaccessd[20] <Warning>: EAS|ASPingTask failed: Error Domain=NSURLErrorDomain Code=-1001 UserInfo=0x10fba0 "timed out"
+Wed Sep  2 14:32:36 unknown mobile_installationd[245] <Error>: 00807800 install_embedded_profile: Skipping the installation of the embedded profile
+Wed Sep  2 14:32:37 unknown mobile_installationd[245] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:32:37 unknown mobile_installationd[245] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:32:38 unknown SpringBoard[24] <Warning>: Reloading and rendering all application icons.
+Wed Sep  2 14:32:42 unknown com.apple.debugserver-42[252] <Warning>: debugserver-42 for armv6 Copyright (c) 2007-2009 Apple, Inc.  All Rights Reserved.
+Wed Sep  2 14:32:42 unknown com.apple.debugserver-42[252] <Warning>: Connecting to com.apple.debugserver service...
+Wed Sep  2 14:32:43 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0x931a]) Spawned and waiting for the debugger to attach before continuing...
+Wed Sep  2 14:32:43 unknown amfid[254] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:32:43 unknown kernel[0] <Debug>: launchd[253] Builtin profile: container (seatbelt)
+Wed Sep  2 14:32:43 unknown kernel[0] <Debug>: launchd[253] Container: /private/var/mobile/Applications/52222923-085A-4D11-A60A-188096381181 (seatbelt)
+Wed Sep  2 14:32:43 unknown com.apple.debugserver-42[252] <Warning>: Got a connection, waiting for debugger instructions for task "(null)".
+Wed Sep  2 14:32:47 unknown FitNexus[253] <Warning>: didload
+Wed Sep  2 14:32:47 unknown FitNexus[253] <Warning>: did load done
+Wed Sep  2 14:32:50 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0x931a]) Bug: launchd_core_logic.c:2649 (23909):10
+Wed Sep  2 14:32:50 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0x931a]) Working around 5020256. Assuming the job crashed.
+Wed Sep  2 14:32:50 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0x931a]) Job appears to have crashed: Segmentation fault
+Wed Sep  2 14:32:50 unknown com.apple.debugserver-42[252] <Warning>: 1 [00fc/1203]: error: ::read ( 7, 0xc891c, 1024 ) => -1 err = Bad file descriptor (0x00000009)
+Wed Sep  2 14:32:50 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 11: Segmentation fault
+Wed Sep  2 14:32:58 unknown com.apple.debugserver-42[257] <Warning>: debugserver-42 for armv6 Copyright (c) 2007-2009 Apple, Inc.  All Rights Reserved.
+Wed Sep  2 14:32:58 unknown com.apple.debugserver-42[257] <Warning>: Connecting to com.apple.debugserver service...
+Wed Sep  2 14:32:59 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0xc52d]) Spawned and waiting for the debugger to attach before continuing...
+Wed Sep  2 14:32:59 unknown kernel[0] <Debug>: launchd[258] Builtin profile: container (seatbelt)
+Wed Sep  2 14:32:59 unknown com.apple.debugserver-42[257] <Warning>: Got a connection, waiting for debugger instructions for task "(null)".
+Wed Sep  2 14:32:59 unknown kernel[0] <Debug>: launchd[258] Container: /private/var/mobile/Applications/52222923-085A-4D11-A60A-188096381181 (seatbelt)
+Wed Sep  2 14:33:04 unknown FitNexus[258] <Warning>: didload
+Wed Sep  2 14:33:04 unknown FitNexus[258] <Warning>: did load done
+Wed Sep  2 14:33:09 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0xc52d]) Bug: launchd_core_logic.c:2649 (23909):10
+Wed Sep  2 14:33:09 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0xc52d]) Working around 5020256. Assuming the job crashed.
+Wed Sep  2 14:33:09 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0xc52d]) Job appears to have crashed: Segmentation fault
+Wed Sep  2 14:33:09 unknown com.apple.debugserver-42[257] <Warning>: 1 [0101/1203]: error: ::read ( 7, 0xc891c, 1024 ) => -1 err = Bad file descriptor (0x00000009)
+Wed Sep  2 14:33:09 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 11: Segmentation fault
+Wed Sep  2 14:34:03 unknown mobile_installationd[264] <Error>: 00807800 install_embedded_profile: Skipping the installation of the embedded profile
+Wed Sep  2 14:34:03 unknown mobile_installationd[264] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:34:04 unknown mobile_installationd[264] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:34:05 unknown SpringBoard[24] <Warning>: Reloading and rendering all application icons.
+Wed Sep  2 14:34:08 unknown com.apple.debugserver-42[270] <Warning>: debugserver-42 for armv6 Copyright (c) 2007-2009 Apple, Inc.  All Rights Reserved.
+Wed Sep  2 14:34:08 unknown com.apple.debugserver-42[270] <Warning>: Connecting to com.apple.debugserver service...
+Wed Sep  2 14:34:09 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0xd0df]) Spawned and waiting for the debugger to attach before continuing...
+Wed Sep  2 14:34:09 unknown amfid[272] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:34:10 unknown kernel[0] <Debug>: launchd[271] Builtin profile: container (seatbelt)
+Wed Sep  2 14:34:10 unknown com.apple.debugserver-42[270] <Warning>: Got a connection, waiting for debugger instructions for task "(null)".
+Wed Sep  2 14:34:10 unknown kernel[0] <Debug>: launchd[271] Container: /private/var/mobile/Applications/EF2706BD-DAF1-4500-A5ED-0A0CA29C0961 (seatbelt)
+Wed Sep  2 14:34:14 unknown FitNexus[271] <Warning>: didload
+Wed Sep  2 14:34:14 unknown FitNexus[271] <Warning>: did load done
+Wed Sep  2 14:34:22 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0xd0df]) Bug: launchd_core_logic.c:2649 (23909):10
+Wed Sep  2 14:34:22 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0xd0df]) Working around 5020256. Assuming the job crashed.
+Wed Sep  2 14:34:22 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0xd0df]) Job appears to have crashed: Segmentation fault
+Wed Sep  2 14:34:22 unknown com.apple.debugserver-42[270] <Warning>: 1 [010e/1203]: error: ::read ( 7, 0xc891c, 1024 ) => -1 err = Bad file descriptor (0x00000009)
+Wed Sep  2 14:34:22 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 11: Segmentation fault
+Wed Sep  2 14:34:49 unknown mobile_installationd[278] <Error>: 00807800 install_embedded_profile: Skipping the installation of the embedded profile
+Wed Sep  2 14:34:50 unknown mobile_installationd[278] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:34:50 unknown mobile_installationd[278] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:34:51 unknown SpringBoard[24] <Warning>: Reloading and rendering all application icons.
+Wed Sep  2 14:34:54 unknown com.apple.debugserver-42[284] <Warning>: debugserver-42 for armv6 Copyright (c) 2007-2009 Apple, Inc.  All Rights Reserved.
+Wed Sep  2 14:34:54 unknown com.apple.debugserver-42[284] <Warning>: Connecting to com.apple.debugserver service...
+Wed Sep  2 14:34:55 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0xdf5d]) Spawned and waiting for the debugger to attach before continuing...
+Wed Sep  2 14:34:56 unknown amfid[286] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:34:56 unknown kernel[0] <Debug>: launchd[285] Builtin profile: container (seatbelt)
+Wed Sep  2 14:34:56 unknown com.apple.debugserver-42[284] <Warning>: Got a connection, waiting for debugger instructions for task "(null)".
+Wed Sep  2 14:34:56 unknown kernel[0] <Debug>: launchd[285] Container: /private/var/mobile/Applications/8EAFB6F9-72C0-4D85-8965-842342BBE865 (seatbelt)
+Wed Sep  2 14:35:01 unknown FitNexus[285] <Warning>: didload
+Wed Sep  2 14:35:01 unknown FitNexus[285] <Warning>: did load done
+Wed Sep  2 14:35:05 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0xdf5d]) Bug: launchd_core_logic.c:2649 (23909):10
+Wed Sep  2 14:35:05 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0xdf5d]) Working around 5020256. Assuming the job crashed.
+Wed Sep  2 14:35:05 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0xdf5d]) Job appears to have crashed: Segmentation fault
+Wed Sep  2 14:35:05 unknown com.apple.debugserver-42[284] <Warning>: 1 [011c/1203]: error: ::read ( 7, 0xc891c, 1024 ) => -1 err = Bad file descriptor (0x00000009)
+Wed Sep  2 14:35:05 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 11: Segmentation fault
+Wed Sep  2 14:35:18 unknown mobile_installationd[278] <Error>: 00807600 install_embedded_profile: Skipping the installation of the embedded profile
+Wed Sep  2 14:35:19 unknown mobile_installationd[278] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:35:20 unknown mobile_installationd[278] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:35:20 unknown SpringBoard[24] <Warning>: Reloading and rendering all application icons.
+Wed Sep  2 14:35:24 unknown com.apple.debugserver-42[298] <Warning>: debugserver-42 for armv6 Copyright (c) 2007-2009 Apple, Inc.  All Rights Reserved.
+Wed Sep  2 14:35:24 unknown com.apple.debugserver-42[298] <Warning>: Connecting to com.apple.debugserver service...
+Wed Sep  2 14:35:25 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0xba77]) Spawned and waiting for the debugger to attach before continuing...
+Wed Sep  2 14:35:25 unknown amfid[286] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:35:26 unknown kernel[0] <Debug>: launchd[299] Builtin profile: container (seatbelt)
+Wed Sep  2 14:35:26 unknown com.apple.debugserver-42[298] <Warning>: Got a connection, waiting for debugger instructions for task "(null)".
+Wed Sep  2 14:35:26 unknown kernel[0] <Debug>: launchd[299] Container: /private/var/mobile/Applications/CF5D4C4A-B4A0-4400-A34A-A36450779653 (seatbelt)
+Wed Sep  2 14:35:33 unknown FitNexus[299] <Warning>: didload
+Wed Sep  2 14:35:33 unknown FitNexus[299] <Warning>: did load done
+Wed Sep  2 14:35:39 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0xba77]) Bug: launchd_core_logic.c:2649 (23909):10
+Wed Sep  2 14:35:39 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0xba77]) Working around 5020256. Assuming the job crashed.
+Wed Sep  2 14:35:39 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0xba77]) Job appears to have crashed: Segmentation fault
+Wed Sep  2 14:35:39 unknown com.apple.debugserver-42[298] <Warning>: 1 [012a/1203]: error: ::read ( 7, 0xc891c, 1024 ) => -1 err = Bad file descriptor (0x00000009)
+Wed Sep  2 14:35:39 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 11: Segmentation fault
+Wed Sep  2 14:36:36 unknown mobile_installationd[305] <Error>: 00807800 install_embedded_profile: Skipping the installation of the embedded profile
+Wed Sep  2 14:36:36 unknown mobile_installationd[305] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:36:37 unknown mobile_installationd[305] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:36:38 unknown SpringBoard[24] <Warning>: Reloading and rendering all application icons.
+Wed Sep  2 14:36:41 unknown com.apple.debugserver-42[312] <Warning>: debugserver-42 for armv6 Copyright (c) 2007-2009 Apple, Inc.  All Rights Reserved.
+Wed Sep  2 14:36:41 unknown com.apple.debugserver-42[312] <Warning>: Connecting to com.apple.debugserver service...
+Wed Sep  2 14:36:42 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0x2f01]) Spawned and waiting for the debugger to attach before continuing...
+Wed Sep  2 14:36:43 unknown amfid[314] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:36:43 unknown kernel[0] <Debug>: launchd[313] Builtin profile: container (seatbelt)
+Wed Sep  2 14:36:43 unknown com.apple.debugserver-42[312] <Warning>: Got a connection, waiting for debugger instructions for task "(null)".
+Wed Sep  2 14:36:43 unknown kernel[0] <Debug>: launchd[313] Container: /private/var/mobile/Applications/38853999-2900-4A3B-A051-53100134E681 (seatbelt)
+Wed Sep  2 14:36:48 unknown FitNexus[313] <Warning>: didload
+Wed Sep  2 14:36:48 unknown FitNexus[313] <Warning>: did load done
+Wed Sep  2 14:36:48 unknown FitNexus[313] <Error>: *** -[NSCFString setText:]: unrecognized selector sent to instance 0x3084
+Wed Sep  2 14:36:48 unknown FitNexus[313] <Error>: *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** -[NSCFString setText:]: unrecognized selector sent to instance 0x3084'
+Wed Sep  2 14:36:48 unknown FitNexus[313] <Error>: Stack: (
+    808001701,
+    805397928,
+    808005509,
+    807501935,
+    807464352,
+    9621,
+    816903060,
+    814973644,
+    814968048,
+    814966908,
+    839149932,
+    807750263,
+    807747947,
+    839144100,
+    814678908,
+    814672532,
+    8381,
+    8244
+)
+Wed Sep  2 14:36:55 unknown com.apple.debugserver-42[317] <Warning>: debugserver-42 for armv6 Copyright (c) 2007-2009 Apple, Inc.  All Rights Reserved.
+Wed Sep  2 14:36:55 unknown com.apple.debugserver-42[317] <Warning>: Connecting to com.apple.debugserver service...
+Wed Sep  2 14:37:12 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBSuspend
+Wed Sep  2 14:37:12 unknown /usr/libexec/notification_proxy[196] <Error>: Could not receive size of message
+Wed Sep  2 14:37:12 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBCableDisconnect
+Wed Sep  2 14:37:12 unknown kernel[0] <Debug>: virtual IOReturn AppleUSBDeviceMux::message(UInt32, IOService*, void*) - kMessageInterfaceWasDeActivated
+Wed Sep  2 14:37:12 unknown kernel[0] <Debug>: AppleUSBDeviceMux::reportStats: USB mux statistics: 
+Wed Sep  2 14:37:12 unknown kernel[0] <Debug>: USB mux: 5109 reads / 0 errors, 6740 writes / 0 errors
+Wed Sep  2 14:37:12 unknown kernel[0] <Debug>: USB mux: 0 short packets, 0 dups
+Wed Sep  2 14:37:12 unknown /usr/libexec/notification_proxy[196] <Error>: Could not receive message
+Wed Sep  2 14:37:12 unknown /usr/libexec/ptpd[99] <Notice>: PTP interface has been deactivated.
+Wed Sep  2 14:37:14 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0x2f01]) Bug: launchd_core_logic.c:2649 (23909):10
+Wed Sep  2 14:37:14 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0x2f01]) Working around 5020256. Assuming the job crashed.
+Wed Sep  2 14:37:14 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0x2f01]) Job appears to have crashed: Segmentation fault
+Wed Sep  2 14:37:14 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 11: Segmentation fault
+Wed Sep  2 14:37:18 unknown dataaccessd[20] <Warning>: EAS|connection died with error Error Domain=NSURLErrorDomain Code=-1004 UserInfo=0x119550 "can\M-b\M^@\M^Yt connect to host" 0x163020
+Wed Sep  2 14:37:18 unknown dataaccessd[20] <Warning>: EAS|ASPingTask failed: Error Domain=NSURLErrorDomain Code=-1004 UserInfo=0x119550 "can\M-b\M^@\M^Yt connect to host"
+Wed Sep  2 14:37:20 unknown kernel[0] <Debug>: launchd[319] Builtin profile: container (seatbelt)
+Wed Sep  2 14:37:20 unknown kernel[0] <Debug>: launchd[319] Container: /private/var/mobile/Applications/38853999-2900-4A3B-A051-53100134E681 (seatbelt)
+Wed Sep  2 14:37:23 unknown FitNexus[319] <Warning>: didload
+Wed Sep  2 14:37:23 unknown FitNexus[319] <Warning>: did load done
+Wed Sep  2 14:37:23 unknown FitNexus[319] <Error>: *** -[NSCFString setText:]: unrecognized selector sent to instance 0x3084
+Wed Sep  2 14:37:23 unknown FitNexus[319] <Error>: *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** -[NSCFString setText:]: unrecognized selector sent to instance 0x3084'
+Wed Sep  2 14:37:23 unknown FitNexus[319] <Error>: Stack: (
+    808001701,
+    805397928,
+    808005509,
+    807501935,
+    807464352,
+    9621,
+    816903060,
+    814973644,
+    814968048,
+    814966908,
+    839149932,
+    807750263,
+    807747947,
+    839144100,
+    814678908,
+    814672532,
+    8381,
+    8244
+)
+Wed Sep  2 14:37:23 unknown UIKitApplication:com.yourcompany.FitNexus[0xe80f][319] <Notice>: terminate called after throwing an instance of 'NSException'
+Wed Sep  2 14:37:24 unknown ReportCrash[320] <Notice>: Formulating crash report for process FitNexus[319]
+Wed Sep  2 14:37:24 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0xe80f]) Job appears to have crashed: Abort trap
+Wed Sep  2 14:37:24 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 6: Abort trap
+Wed Sep  2 14:37:25 unknown ReportCrash[320] <Error>: Saved crashreport to /var/mobile/Library/Logs/CrashReporter/FitNexus_2009-09-02-143723_keiths-iPhone.plist using uid: 0 gid: 0, synthetic_euid: 501 egid: 0
+Wed Sep  2 14:37:36 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBReset
+Wed Sep  2 14:37:36 unknown /usr/libexec/ptpd[321] <Notice>: PTP interface bas been activated at high speed.
+Wed Sep  2 14:38:06 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBSuspend
+Wed Sep  2 14:38:07 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBCableDisconnect
+Wed Sep  2 14:38:07 unknown /usr/libexec/notification_proxy[332] <Error>: Could not receive size of message
+Wed Sep  2 14:38:07 unknown kernel[0] <Debug>: virtual IOReturn AppleUSBDeviceMux::message(UInt32, IOService*, void*) - kMessageInterfaceWasDeActivated
+Wed Sep  2 14:38:07 unknown kernel[0] <Debug>: AppleUSBDeviceMux::reportStats: USB mux statistics: 
+Wed Sep  2 14:38:07 unknown kernel[0] <Debug>: USB mux: 168 reads / 0 errors, 299 writes / 0 errors
+Wed Sep  2 14:38:07 unknown kernel[0] <Debug>: USB mux: 0 short packets, 0 dups
+Wed Sep  2 14:38:07 unknown /usr/libexec/notification_proxy[332] <Error>: Could not receive message
+Wed Sep  2 14:38:07 unknown /usr/libexec/ptpd[321] <Notice>: PTP interface has been deactivated.
+Wed Sep  2 14:38:09 unknown kernel[0] <Debug>: launchd[342] Builtin profile: container (seatbelt)
+Wed Sep  2 14:38:09 unknown kernel[0] <Debug>: launchd[342] Container: /private/var/mobile/Applications/38853999-2900-4A3B-A051-53100134E681 (seatbelt)
+Wed Sep  2 14:38:11 unknown FitNexus[342] <Warning>: didload
+Wed Sep  2 14:38:11 unknown FitNexus[342] <Warning>: did load done
+Wed Sep  2 14:38:11 unknown FitNexus[342] <Error>: *** -[NSCFString setText:]: unrecognized selector sent to instance 0x3084
+Wed Sep  2 14:38:11 unknown FitNexus[342] <Error>: *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** -[NSCFString setText:]: unrecognized selector sent to instance 0x3084'
+Wed Sep  2 14:38:11 unknown FitNexus[342] <Error>: Stack: (
+    808001701,
+    805397928,
+    808005509,
+    807501935,
+    807464352,
+    9621,
+    816903060,
+    814973644,
+    814968048,
+    814966908,
+    839149932,
+    807750263,
+    807747947,
+    839144100,
+    814678908,
+    814672532,
+    8381,
+    8244
+)
+Wed Sep  2 14:38:11 unknown UIKitApplication:com.yourcompany.FitNexus[0x27f2][342] <Notice>: terminate called after throwing an instance of 'NSException'
+Wed Sep  2 14:38:12 unknown ReportCrash[343] <Notice>: Formulating crash report for process FitNexus[342]
+Wed Sep  2 14:38:13 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0x27f2]) Job appears to have crashed: Abort trap
+Wed Sep  2 14:38:13 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 6: Abort trap
+Wed Sep  2 14:38:13 unknown ReportCrash[343] <Error>: Saved crashreport to /var/mobile/Library/Logs/CrashReporter/FitNexus_2009-09-02-143811_keiths-iPhone.plist using uid: 0 gid: 0, synthetic_euid: 501 egid: 0
+Wed Sep  2 14:38:16 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBReset
+Wed Sep  2 14:38:17 unknown /usr/libexec/ptpd[321] <Notice>: PTP interface bas been activated at high speed.
+Wed Sep  2 14:39:13 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBSuspend
+Wed Sep  2 14:39:13 unknown /usr/libexec/notification_proxy[353] <Error>: Could not receive size of message
+Wed Sep  2 14:39:13 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBCableDisconnect
+Wed Sep  2 14:39:13 unknown kernel[0] <Debug>: virtual IOReturn AppleUSBDeviceMux::message(UInt32, IOService*, void*) - kMessageInterfaceWasDeActivated
+Wed Sep  2 14:39:13 unknown kernel[0] <Debug>: AppleUSBDeviceMux::reportStats: USB mux statistics: 
+Wed Sep  2 14:39:13 unknown kernel[0] <Debug>: USB mux: 168 reads / 0 errors, 299 writes / 0 errors
+Wed Sep  2 14:39:13 unknown kernel[0] <Debug>: USB mux: 0 short packets, 0 dups
+Wed Sep  2 14:39:13 unknown /usr/libexec/notification_proxy[353] <Error>: Could not receive message
+Wed Sep  2 14:39:13 unknown /usr/libexec/ptpd[321] <Notice>: PTP interface has been deactivated.
+Wed Sep  2 14:39:16 unknown kernel[0] <Debug>: launchd[363] Builtin profile: container (seatbelt)
+Wed Sep  2 14:39:16 unknown kernel[0] <Debug>: launchd[363] Container: /private/var/mobile/Applications/38853999-2900-4A3B-A051-53100134E681 (seatbelt)
+Wed Sep  2 14:39:19 unknown FitNexus[363] <Warning>: didload
+Wed Sep  2 14:39:19 unknown FitNexus[363] <Warning>: did load done
+Wed Sep  2 14:39:19 unknown FitNexus[363] <Error>: *** -[NSCFString setText:]: unrecognized selector sent to instance 0x3084
+Wed Sep  2 14:39:19 unknown FitNexus[363] <Error>: *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** -[NSCFString setText:]: unrecognized selector sent to instance 0x3084'
+Wed Sep  2 14:39:19 unknown FitNexus[363] <Error>: Stack: (
+    808001701,
+    805397928,
+    808005509,
+    807501935,
+    807464352,
+    9621,
+    816903060,
+    814973644,
+    814968048,
+    814966908,
+    839149932,
+    807749875,
+    807747947,
+    839144100,
+    814678908,
+    814672532,
+    8381,
+    8244
+)
+Wed Sep  2 14:39:19 unknown UIKitApplication:com.yourcompany.FitNexus[0xe038][363] <Notice>: terminate called after throwing an instance of 'NSException'
+Wed Sep  2 14:39:20 unknown ReportCrash[364] <Notice>: Formulating crash report for process FitNexus[363]
+Wed Sep  2 14:39:20 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0xe038]) Job appears to have crashed: Abort trap
+Wed Sep  2 14:39:20 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 6: Abort trap
+Wed Sep  2 14:39:21 unknown ReportCrash[364] <Error>: Saved crashreport to /var/mobile/Library/Logs/CrashReporter/FitNexus_2009-09-02-143919_keiths-iPhone.plist using uid: 0 gid: 0, synthetic_euid: 501 egid: 0
+Wed Sep  2 14:39:26 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBReset
+Wed Sep  2 14:39:27 unknown /usr/libexec/ptpd[365] <Notice>: PTP interface bas been activated at high speed.
+Wed Sep  2 14:41:35 unknown mobile_installationd[385] <Error>: 00807800 install_embedded_profile: Skipping the installation of the embedded profile
+Wed Sep  2 14:41:36 unknown mobile_installationd[385] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:41:37 unknown mobile_installationd[385] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:41:37 unknown SpringBoard[24] <Warning>: Reloading and rendering all application icons.
+Wed Sep  2 14:41:41 unknown com.apple.debugserver-42[392] <Warning>: debugserver-42 for armv6 Copyright (c) 2007-2009 Apple, Inc.  All Rights Reserved.
+Wed Sep  2 14:41:41 unknown com.apple.debugserver-42[392] <Warning>: Connecting to com.apple.debugserver service...
+Wed Sep  2 14:41:42 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0x60c6]) Spawned and waiting for the debugger to attach before continuing...
+Wed Sep  2 14:41:43 unknown amfid[394] <Error>: entitlement 'application-identifier' has value not permitted by a provisioning profile
+Wed Sep  2 14:41:43 unknown kernel[0] <Debug>: launchd[393] Builtin profile: container (seatbelt)
+Wed Sep  2 14:41:43 unknown com.apple.debugserver-42[392] <Warning>: Got a connection, waiting for debugger instructions for task "(null)".
+Wed Sep  2 14:41:43 unknown kernel[0] <Debug>: launchd[393] Container: /private/var/mobile/Applications/1971E3A7-ADE8-4333-A799-7E8DBCE47578 (seatbelt)
+Wed Sep  2 14:41:48 unknown FitNexus[393] <Warning>: didload
+Wed Sep  2 14:41:48 unknown FitNexus[393] <Warning>: did load done
+Wed Sep  2 14:41:48 unknown FitNexus[393] <Warning>: ___________________________________DATA OUTPUT_______________________________________________
+Wed Sep  2 14:41:48 unknown FitNexus[393] <Warning>: ACCEL X:-0.072449Y:-0.851273Z:-0.561478
+Wed Sep  2 14:41:48 unknown FitNexus[393] <Error>: *** -[NSCFString setText:]: unrecognized selector sent to instance 0x40a4
+Wed Sep  2 14:41:48 unknown FitNexus[393] <Error>: *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** -[NSCFString setText:]: unrecognized selector sent to instance 0x40a4'
+Wed Sep  2 14:41:48 unknown FitNexus[393] <Error>: Stack: (
+    808001701,
+    805397928,
+    808005509,
+    807501935,
+    807464352,
+    9641,
+    816903060,
+    814973644,
+    814968048,
+    814966908,
+    839149932,
+    807750263,
+    807747947,
+    839144100,
+    814678908,
+    814672532,
+    8381,
+    8244
+)
+Wed Sep  2 14:42:13 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBSuspend
+Wed Sep  2 14:42:13 unknown /usr/libexec/notification_proxy[375] <Error>: Could not receive size of message
+Wed Sep  2 14:42:13 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBCableDisconnect
+Wed Sep  2 14:42:13 unknown kernel[0] <Debug>: virtual IOReturn AppleUSBDeviceMux::message(UInt32, IOService*, void*) - kMessageInterfaceWasDeActivated
+Wed Sep  2 14:42:13 unknown kernel[0] <Debug>: AppleUSBDeviceMux::reportStats: USB mux statistics: 
+Wed Sep  2 14:42:13 unknown kernel[0] <Debug>: USB mux: 688 reads / 0 errors, 916 writes / 0 errors
+Wed Sep  2 14:42:13 unknown kernel[0] <Debug>: USB mux: 0 short packets, 0 dups
+Wed Sep  2 14:42:13 unknown /usr/libexec/notification_proxy[375] <Error>: Could not receive message
+Wed Sep  2 14:42:13 unknown /usr/libexec/ptpd[365] <Notice>: PTP interface has been deactivated.
+Wed Sep  2 14:42:15 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0x60c6]) Bug: launchd_core_logic.c:2649 (23909):10
+Wed Sep  2 14:42:15 unknown com.apple.launchd[1] <Notice>: (UIKitApplication:com.yourcompany.FitNexus[0x60c6]) Working around 5020256. Assuming the job crashed.
+Wed Sep  2 14:42:15 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0x60c6]) Job appears to have crashed: Segmentation fault
+Wed Sep  2 14:42:15 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 11: Segmentation fault
+Wed Sep  2 14:42:19 unknown kernel[0] <Debug>: launchd[396] Builtin profile: container (seatbelt)
+Wed Sep  2 14:42:19 unknown kernel[0] <Debug>: launchd[396] Container: /private/var/mobile/Applications/1971E3A7-ADE8-4333-A799-7E8DBCE47578 (seatbelt)
+Wed Sep  2 14:42:21 unknown FitNexus[396] <Warning>: didload
+Wed Sep  2 14:42:21 unknown FitNexus[396] <Warning>: did load done
+Wed Sep  2 14:42:21 unknown FitNexus[396] <Warning>: ___________________________________DATA OUTPUT_______________________________________________
+Wed Sep  2 14:42:21 unknown FitNexus[396] <Warning>: ACCEL X:-0.144897Y:-0.724487Z:-0.742599
+Wed Sep  2 14:42:21 unknown FitNexus[396] <Error>: *** -[NSCFString setText:]: unrecognized selector sent to instance 0x40a4
+Wed Sep  2 14:42:21 unknown FitNexus[396] <Error>: *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** -[NSCFString setText:]: unrecognized selector sent to instance 0x40a4'
+Wed Sep  2 14:42:21 unknown FitNexus[396] <Error>: Stack: (
+    808001701,
+    805397928,
+    808005509,
+    807501935,
+    807464352,
+    9641,
+    816903060,
+    814973644,
+    814968048,
+    814966908,
+    839149932,
+    807750263,
+    807747947,
+    839144100,
+    814678908,
+    814672532,
+    8381,
+    8244
+)
+Wed Sep  2 14:42:21 unknown UIKitApplication:com.yourcompany.FitNexus[0x58af][396] <Notice>: terminate called after throwing an instance of 'NSException'
+Wed Sep  2 14:42:22 unknown ReportCrash[397] <Notice>: Formulating crash report for process FitNexus[396]
+Wed Sep  2 14:42:23 unknown com.apple.launchd[1] <Warning>: (UIKitApplication:com.yourcompany.FitNexus[0x58af]) Job appears to have crashed: Abort trap
+Wed Sep  2 14:42:23 unknown SpringBoard[24] <Warning>: Application 'FitNexus' exited abnormally with signal 6: Abort trap
+Wed Sep  2 14:42:23 unknown ReportCrash[397] <Error>: Saved crashreport to /var/mobile/Library/Logs/CrashReporter/FitNexus_2009-09-02-144221_keiths-iPhone.plist using uid: 0 gid: 0, synthetic_euid: 501 egid: 0
+Wed Sep  2 14:42:26 unknown kernel[0] <Debug>: AppleSynopsysOTGDevice::handleUSBReset
+Wed Sep  2 14:42:27 unknown /usr/libexec/ptpd[398] <Notice>: PTP interface bas been activated at high speed.

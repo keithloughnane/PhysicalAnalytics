@@ -1,0 +1,117 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* FitNexus */ = {
+		activeExec = 0;
+		executables = (
+			717B5EE5111C9DC800D73BF3 /* FitNexus */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 717B5EE5111C9DC800D73BF3 /* FitNexus */;
+		activeSDKPreference = iphoneos3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FitNexus */;
+		codeSenseManager = 717B5EF8111C9DCC00D73BF3 /* Code sense */;
+		executables = (
+			717B5EE5111C9DC800D73BF3 /* FitNexus */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					601,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 289404722;
+			PBXWorkspaceStateSaveDate = 289404722;
+		};
+		perUserProjectItems = {
+			717B4ED71145DA8300755C4C /* PBXTextBookmark */ = 717B4ED71145DA8300755C4C /* PBXTextBookmark */;
+			717F27F9113FE58B005E77DA /* PBXTextBookmark */ = 717F27F9113FE58B005E77DA /* PBXTextBookmark */;
+		};
+		sourceControlManager = 717B5EF7111C9DCC00D73BF3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	53900E461055367D00A73D2B /* DataBaseControler.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1596, 5656}}";
+			sepNavSelRange = "{7556, 0}";
+			sepNavVisRange = "{6999, 713}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	717B4ED71145DA8300755C4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 53900E461055367D00A73D2B /* DataBaseControler.m */;
+		name = "DataBaseControler.m: 292";
+		rLen = 0;
+		rLoc = 7556;
+		rType = 0;
+		vrLen = 713;
+		vrLoc = 6999;
+	};
+	717B5EE5111C9DC800D73BF3 /* FitNexus */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FitNexus;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	717B5EF7111C9DCC00D73BF3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	717B5EF8111C9DCC00D73BF3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	717F27F9113FE58B005E77DA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 53900E461055367D00A73D2B /* DataBaseControler.m */;
+		name = "DataBaseControler.m: 292";
+		rLen = 0;
+		rLoc = 7556;
+		rType = 0;
+		vrLen = 713;
+		vrLoc = 6999;
+	};
+}

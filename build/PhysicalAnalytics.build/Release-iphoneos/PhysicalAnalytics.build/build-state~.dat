@@ -1,0 +1,744 @@
+TPhysicalAnalytics
+v7
+r0
+t296987215.722899
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk
+c000000004B79A1A50000000000000110
+t1266262437
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+c000000004B2B3B9F00000000000001E5
+t1261124511
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004B2B548B0000000000290670
+t1261130891
+s2688624
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004B2B539700000000000004CF
+t1261130647
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B537900000000005F4900
+t1261130617
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004B2B61E30000000000084510
+t1261134307
+s541968
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004B2B61D300000000000001AF
+t1261134291
+s431
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B551F0000000000501370
+t1261131039
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B54F40000000000001355
+t1261130996
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004B2B652A000000000000017D
+t1261135146
+s381
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004B2B656100000000001CD6E0
+t1261135201
+s1890016
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61610000000000000788
+t1261134177
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B63DA0000000001B3F450
+t1261134810
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/arpa/inet.h
+c000000004B2B3EF80000000000001533
+t1261125368
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/netdb.h
+c000000004B2B3F270000000000003057
+t1261125415
+s12375
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/netinet/in.h
+c000000004B2B49E4000000000000535B
+t1261128164
+s21339
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/sys/socket.h
+c000000004B2B49EE0000000000005660
+t1261128174
+s22112
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/lib/libsqlite3.dylib
+c000000004B2B5093000000000010BF50
+t1261129875
+s1097552
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/AccelGetter.h
+c000000004AA10ACC0000000000000199
+t1252068044
+s409
+i<Foundation/Foundation.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m
+c000000004C0372C80000000000000265
+t1275294408
+s613
+i"AccelGetter.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m
+c000000004C0372CA000000000000263D
+t1275294410
+s9789
+i"DataBaseControler.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m
+c000000004B0EFA8C00000000000000DD
+t1259272844
+s221
+i"DataPoint.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m
+c000000004AA52BD600000000000000D3
+t1252338646
+s211
+i"DataPointManager.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m
+c000000004AAEA3120000000000000603
+t1252958994
+s1539
+i"LocationGetter.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../MainWindow.xib
+c000000004BF561940000000000009024
+t1274372500
+s36900
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../SecondView.xib
+c000000004AA146040000000000003126
+t1252083204
+s12582
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m
+c000000004BC73444000000000001285E
+t1271346244
+s75870
+i"TrainingScreen.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.xib
+c000000004BC5F7A60000000000002962
+t1271265190
+s10594
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m
+c000000004A953AFA0000000000000162
+t1251293946
+s354
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket Documentation.html
+c0000000048A5A9620000000000018F67
+t1218816354
+s102247
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.h
+c0000000049E8E5A600000000000042A9
+t1239999910
+s17065
+i<Foundation/Foundation.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m
+c0000000049E8E5A6000000000001565E
+t1239999910
+s87646
+i"AsyncSocket.h"
+i<sys/socket.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i<netdb.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.h
+c000000004A953AFA00000000000000E7
+t1251293946
+s231
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m
+c000000004ACDEA8C00000000000005A0
+t1255008908
+s1440
+i"FirstViewController.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.h
+c000000004A953AFA00000000000001D8
+t1251293946
+s472
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m
+c000000004ACDFE3800000000000004BC
+t1255013944
+s1212
+i"FitNexusAppDelegate.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/READ ME.txt
+c0000000049E8E360000000000000019E
+t1239999328
+s414
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.h
+c000000004BF5705500000000000003B5
+t1274376277
+s949
+i<UIKit/UIKit.h>
+i"DataBaseControler.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m
+c000000004BF575C60000000000001558
+t1274377670
+s5464
+i"SocialNetScreen.h"
+i"StatsScreen.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.xib
+c000000004BF55F830000000000005FFE
+t1274371971
+s24574
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.h
+c000000004BF570590000000000000672
+t1274376281
+s1650
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"DataBaseControler.h"
+i"statsView.h"
+i"DataBaseControler.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m
+c000000004BF577400000000000001AEC
+t1274378048
+s6892
+i"StatsScreen.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.xib
+c000000004BCDE00800000000000067EA
+t1271783432
+s26602
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.h
+c000000004AA4FD5600000000000000DF
+t1252326742
+s223
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m
+c000000004ACC7E120000000000000568
+t1254915602
+s1384
+i"StopWatchScreen.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.xib
+c000000004ACF32E20000000000004715
+t1255092962
+s18197
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/graphView.xib
+c000000004ACC7F5C000000000000170A
+t1254915932
+s5898
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.h
+c000000004B0D5E3E000000000000030B
+t1259167294
+s779
+i"AsyncSocket.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m
+c000000004BCDE689000000000000076F
+t1271785097
+s1903
+i"netCon.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/pickerView.xib
+c000000004BF4015E000000000000331C
+t1274282334
+s13084
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/pickerWindow.h
+c000000004BEAA67200000000000000DF
+t1273669234
+s223
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/pickerWindow.m
+c000000004BEAA673000000000000060B
+t1273669235
+s1547
+i"pickerWindow.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.h
+c000000004BF568110000000000000342
+t1274374161
+s834
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m
+c000000004ACF1DBC0000000000000B27
+t1255087548
+s2855
+i"statsView.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/DataBaseControler.h
+c000000004B0D5F3C00000000000002EC
+t1259167548
+s748
+i<Foundation/Foundation.h>
+i"/usr/include/sqlite3.h"
+i"netCon.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/DataPoint.h
+c000000004AA52BBE00000000000000D5
+t1252338622
+s213
+i<Foundation/Foundation.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/DataPointManager.h
+c000000004AA52BD600000000000000E3
+t1252338646
+s227
+i<Foundation/Foundation.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/LocationGetter.h
+c000000004AA6845A0000000000000237
+t1252426842
+s567
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/MainWindow.xib
+c000000004BF561940000000000009024
+t1274372500
+s36900
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/PhysicalAnalytics_Prefix.pch
+c000000004A953AFA00000000000000B9
+t1251293946
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/SecondView.xib
+c000000004AA146040000000000003126
+t1252083204
+s12582
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/TrainingScreen.h
+c000000004BC72E97000000000000045E
+t1271344791
+s1118
+i<UIKit/UIKit.h>
+i"AccelGetter.h"
+i"LocationGetter.h"
+i"DataBaseControler.h"
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/TrainingScreen.xib
+c000000004BC5F7A60000000000002962
+t1271265190
+s10594
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Worklog
+c000000004C0371390000000000000000
+t1275294009
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Worklog.txt
+c000000004C0371390000000000000000
+t1275294009
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/AccelGetter.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/AsyncSocket.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/DataBaseControler.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/DataPoint.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/DataPointManager.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/FirstViewController.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/FitNexusAppDelegate.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/LocationGetter.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/PhysicalAnalytics.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/SocialNetScreen.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/StatsScreen.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/StopWatchScreen.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/TrainingScreen.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/netCon.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/pickerWindow.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/statsView.o
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app.dSYM
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/AsyncSocket Documentation.html
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/Icon.png
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/Info.plist
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/MainWindow.nib
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/PhysicalAnalytics
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/PkgInfo
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/READ ME.txt
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/ResourceRules.plist
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/SecondView.nib
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/SocialNetScreen.nib
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/StatsScreen.nib
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/StopWatchScreen.nib
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/TrainingScreen.nib
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/Worklog
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/Worklog.txt
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/clock_icon.png
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/demostats_merged.png
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/graphView.nib
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/graph_icon.png
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/info_icon.png
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/new_train.png
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/pickerView.nib
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/title_screen.png
+t2
+s0
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/demostats_merged.png
+c000000004AAA72AE00000000000044DA
+t1252684462
+s17626
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/Icon.png
+c000000004BCF11C00000000000000DD9
+t1271861696
+s3545
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/clock_icon.png
+c000000004ACF2F9F0000000000000387
+t1255092127
+s903
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/graph_icon.png
+c000000004ACF2F720000000000000322
+t1255092082
+s802
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/info_icon.png
+c000000004BF561110000000000000C0C
+t1274372369
+s3084
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/new_train.png
+c000000004ACF30FA00000000000002E9
+t1255092474
+s745
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/images/title_screen.png
+c000000004BCF225F000000000000E8CA
+t1271865951
+s59594
+
+N/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/main.m
+c000000004A953AFA0000000000000162
+t1251293946
+s354
+i<UIKit/UIKit.h>
+
+N/usr/include/sqlite3.h
+c000000004B569A77000000000003D86F
+t1263966839
+s252015
+
+N/var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhysicalAnalytics_Prefix-dnoamxlukgcaptavvxutimtjpcxc/PhysicalAnalytics_Prefix.pch.gch
+t2
+s0
+
+NPhysicalAnalytics-Info.plist
+c000000004BD4E02E0000000000000384
+t1272242222
+s900
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies296987212#296987215#0(161"[BEROR]Code Sign error: The default keychain doesn't have an identity matching the profile 'PhysDevProvoFinal' and identity 'iPhone Distribution: Malachy Kelly'0(0#1#0"4300960984#0"0#
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/AccelGetter.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../AccelGetter.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/AsyncSocket.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/AsyncSocket.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/DataBaseControler.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataBaseControler.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/DataPoint.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPoint.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/DataPointManager.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../DataPointManager.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/FirstViewController.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FirstViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/FitNexusAppDelegate.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/FitNexusAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/LocationGetter.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../LocationGetter.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/SocialNetScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/StatsScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/StopWatchScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/TrainingScreen.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/main.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/main.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/netCon.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/netCon.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/pickerWindow.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/pickerWindow.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PhysicalAnalytics.build/Release-iphoneos/PhysicalAnalytics.build/Objects-normal/armv6/statsView.o "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/statsView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../MainWindow.xib"
+r0
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../SecondView.xib"
+r0
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/../TrainingScreen.xib"
+r0
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/SocialNetScreen.xib"
+r0
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StatsScreen.xib"
+r0
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/StopWatchScreen.xib"
+r0
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/graphView.xib"
+r0
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/Classes/pickerView.xib"
+r0
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/MainWindow.xib"
+r0
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/SecondView.xib"
+r0
+
+CCompileXIB "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/TrainingScreen.xib"
+r0
+
+CCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/Icon.png" images/Icon.png
+r0
+
+CCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/clock_icon.png" images/clock_icon.png
+r0
+
+CCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/demostats_merged.png" demostats_merged.png
+r0
+
+CCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/graph_icon.png" images/graph_icon.png
+r0
+
+CCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/info_icon.png" images/info_icon.png
+r0
+
+CCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/new_train.png" images/new_train.png
+r0
+
+CCopyPNGFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/title_screen.png" images/title_screen.png
+r0
+
+CCpResource "build/Release-iphoneos/PhysicalAnalytics.app/AsyncSocket Documentation.html" "Classes/AsyncSocket Documentation.html"
+r0
+
+CCpResource "build/Release-iphoneos/PhysicalAnalytics.app/READ ME.txt" "Classes/READ ME.txt"
+r0
+
+CCpResource build/Release-iphoneos/PhysicalAnalytics.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+r0
+
+CCpResource build/Release-iphoneos/PhysicalAnalytics.app/Worklog Worklog
+r0
+
+CCpResource build/Release-iphoneos/PhysicalAnalytics.app/Worklog.txt Worklog.txt
+r0
+
+CGenerateDSYMFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app.dSYM" "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/PhysicalAnalytics"
+r0
+
+CLd "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/PhysicalAnalytics" normal armv6
+r0
+
+CProcessInfoPlistFile "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app/Info.plist" PhysicalAnalytics-Info.plist
+r0
+
+CProcessPCH /var/folders/EX/EXQ79A1cEXy5xEx9TORh+++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PhysicalAnalytics_Prefix-dnoamxlukgcaptavvxutimtjpcxc/PhysicalAnalytics_Prefix.pch.gch PhysicalAnalytics_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Volumes/MINI_FILES/PROJECTS/Fitness App Prime/FitNexus/build/Release-iphoneos/PhysicalAnalytics.app"
+r0
+
